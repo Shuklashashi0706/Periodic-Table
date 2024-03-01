@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chemical Element Quiz</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h1>Chemical Element Quiz</h1>
+  <p id="elementInfo"></p>
+  <input type="number" id="inputAtomicNumber" min="1" max="118" placeholder="Atomic Number">
+  <input type="number" id="inputAtomicMass" min="1" step="0.01" placeholder="Atomic Mass (optional)">
+  <button onclick="checkAnswers()">Check</button>
+  <p id="resultAtomicNumber"></p>
+  <p id="resultAtomicMass"></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
